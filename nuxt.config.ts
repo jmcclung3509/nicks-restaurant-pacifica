@@ -36,8 +36,16 @@ export default {
       autoprefixer: {},
     },
   },
-  css: ['~/assets/scss/styles.scss'],
+  css: ['~/assets/scss/styles.scss', '~/assets/scss/variables.scss'],
   modules: ["@nuxtjs/tailwindcss"],
+  buildModules: [
+    '@nuxtjs/style-resources',
+  ],
+  styleResources: {
+    scss: [
+      '~/assets/style/variables.scss',
+    ],
+  },
   runtimeConfig: {
     public: {
       BASE_API_BROWSER_URL: "https://deft-gingersnap-b9df5d.netlify.app/",
@@ -49,6 +57,19 @@ export default {
       Oswald: true,
       "Material+Icons": true,
     },
+  },
+  build:{
+    optimizeCSS: true,
+    minifyJS: true,
+    minifyCSS: true,
+    loaders: {
+      scss:{
+        implementation: require('sass'),
+        sassOptions: {
+          indentedSyntax: true
+        }
+      }
+    }
   },
   experimental: {
     payloadExtraction: false,

@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
@@ -8,27 +10,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-:root {
-  --default-light: #ddebf3;
-  --default-dark: #384960;
-  --light-blue: #1e90ff;
-  --medium-blue: #0076ce;
-  --dark-blue: #1560bd;
-  --red: #8a2054;
-  --text-heading: #00356b;
-  --text-primary: #384960;
-  --text-link: #1e90ff;
-  --primary-gradient: linear-gradient(45deg, #1e90ff, #0076ce, #1560bd);
-  --line-gradient: linear-gradient(to right, #1e90ff, #0076ce);
-  --rotating-gradient: linear-gradient(
-    90deg,
-    rgba(158, 251, 211, 0.3),
-    rgba(87, 233, 242, 0.3),
-    rgba(69, 212, 251, 0.3),
-    rgba(87, 233, 242, 0.3),
-    rgba(158, 251, 211, 0.3)
-  );
-}
+
 
 body {
   background-color: #ddebf3;
@@ -412,18 +394,22 @@ body {
           border: 3px solid #9f6778;
           border-radius: 9px;
           margin: auto;
+   
+
           @screen lg {
+            // Code inside the @screen directive
+          }
             padding: 20px;
           }
         }
       }
     }
   }
-}
+
 
 //ABOUT PAGE
 body {
-&.page-About {
+&.page-about {
     .section-container {
       position: relative;
       z-index: 200;

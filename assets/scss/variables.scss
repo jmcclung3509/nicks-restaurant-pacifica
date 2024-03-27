@@ -1,0 +1,49 @@
+//COLORS
+
+$default-light: #ddebf3;
+$default-dark: #384960;
+$ight-blue: #1e90ff;
+$medium-blue: #0076ce;
+$dark-blue: #1560bd;
+$red: #8a2054;
+$text-heading: #00356b;
+$text-primary: #384960;
+$text-link: #1e90ff;
+$primary-gradient: linear-gradient(45deg, #1e90ff, #0076ce, #1560bd);
+$line-gradient: linear-gradient(to right, #1e90ff, #0076ce);
+$red: linear-gradient(
+      90deg,
+      rgba(158, 251, 211, 0.3),
+      rgba(87, 233, 242, 0.3),
+      rgba(69, 212, 251, 0.3),
+      rgba(87, 233, 242, 0.3),
+      rgba(158, 251, 211, 0.3)
+    );
+
+  
+  // /MEDIA QUERIES
+  
+  $break-small: 500px;
+  $break-med: 768px;
+  $break-large-tablet: 1024px;
+  $break-large: 1200px;
+  $break-xlarge: 1600px;
+  
+  @mixin respond-to($media){
+    @if $media == small {
+      @media (max-width: $break-small) { @content; }
+    }
+    @if $media == med {
+      @media (max-width: $break-med) { @content; }
+    }
+    @if $media == large-tablet {
+      @media (max-width: $break-large-tablet) { @content; }
+    }
+    @if $media == large {
+      @media (max-width: $break-large) { @content; }
+    }
+    @if $media == xlarge {
+      @media (max-width: $break-xlarge) { @content; }
+    }
+  }
+  
