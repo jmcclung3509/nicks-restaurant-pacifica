@@ -1,75 +1,18 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+Photo by <a href="https://unsplash.com/@datingscout?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Datingscout</a> on <a href="https://unsplash.com/photos/body-of-water-near-mountain-under-blue-sky-during-daytime-GeeiwkXf9ss?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
-Make sure to install the dependencies:
+  Photo by <a href="https://unsplash.com/@datingscout?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Datingscout</a> on <a href="https://unsplash.com/photos/body-of-water-near-mountain-under-blue-sky-during-daytime-GeeiwkXf9ss?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
-```bash
-# npm
-npm install
+  Photo by <a href="https://unsplash.com/@leokorman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo Korman</a> on <a href="https://unsplash.com/photos/silhouette-of-mountain-during-sunset-VHIhK52epL0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
-# pnpm
-pnpm install
+  Photo by <a href="https://unsplash.com/@sairaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">saira ahmed</a> on <a href="https://unsplash.com/photos/green-mountain-beside-body-of-water-during-daytime-C5Uk-pdNXWg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  Photo by <a href="https://unsplash.com/@sairaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">saira ahmed</a> on <a href="https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-pmQ8YRC9koQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+  Photo by <a href="https://unsplash.com/@hideobara?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hide Obara</a> on <a href="https://unsplash.com/photos/body-of-water-under-cloudy-sky-TeX_yWATaBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

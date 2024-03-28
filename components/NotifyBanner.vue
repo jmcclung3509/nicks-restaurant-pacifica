@@ -2,12 +2,12 @@
 	<div
 		class="py-4 z-100  ">
 
-		<div class="inner-banner-wrapper px-4 flex justify-center items-center min-h-[120px] ">
+		<div class="inner-banner-wrapper px-4 flex justify-center items-center min-h-[90px] lg:min-h-[120px] ">
 
 				<div class="flex justify-center items-center py-7 space-y-4 flex-col absolute ">
 											<p class="font-bold">
 				June 20, 2024</p>
-				<p class="font-bold text-3xl">
+				<p class="font-bold text-1.5xl lg:text-3xl">
 
 				Thursday Night Lights is back! 🚘
 					</p>
