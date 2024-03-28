@@ -62,7 +62,7 @@
           short of extraordinary.
         </p>
       </div>
-      <div class="sidebar w-full lg:w-[30%] flex flex-col items-start">
+      <div class="sidebar w-full lg:w-[30%] flex flex-col items-start pt-24 lg:pt-0">
         <h2 class="border-none">Hours</h2>
         <div class="flex flex-col">
           <h3>Dining Room</h3>
