@@ -23,6 +23,7 @@
 						<li>
 							<Accordion
 								id="0"
+								:hoverEnabled
 								:open="data.pages[0].open"
 								@toggleAccordion="
 									data.pages[0].open = !data.pages[0].open

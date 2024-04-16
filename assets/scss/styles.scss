@@ -489,6 +489,22 @@ body {
   height: 100px;
 }
 
+.menu-open-close-enter-active,
+.menu-open-close-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+.menu-open-close-enter-from,
+.menu-open-close-leave-to {
+  height: 0;
+  opacity: 0;
+}
+.menu-open-close-enter-to,
+.menu-open-close-leave-from {
+  height: fit-content;
+  opacity: 100%;
+}
+
+
 //animation
 @keyframes fadeInPage {
   from {

@@ -7,7 +7,7 @@
 				<div class="flex justify-center items-center py-7 space-y-4 flex-col absolute ">
 											<p class="font-bold">
 				June 20, 2024</p>
-				<p class="font-bold text-1.5xl lg:text-3xl">
+				<p class="font-bold text-1.5xl lg:text-2xl">
 
 				Thursday Night Lights is back! 🚘
 					</p>
