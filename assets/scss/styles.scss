@@ -1,5 +1,3 @@
-
-
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -26,10 +24,12 @@ body {
   opacity: 0;
   animation: fadeInPage 1s ease-in-out forwards;
 }
+
 .animate {
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s;
+
   &.animated {
     opacity: 1;
     transform: translateY(0);
@@ -38,7 +38,8 @@ body {
 
 .section-container {
   margin: 50px;
-@screen lg {  
+
+  @screen lg {
     margin: 100px;
   }
 }
@@ -51,9 +52,11 @@ body {
   flex-direction: column;
   justify-content: justify-between;
 }
+
 h2 {
   font-size: 2rem;
   color: #00356b;
+
   @screen lg {
     font-size: 3rem;
   }
@@ -62,10 +65,12 @@ h2 {
 p {
   font-size: 1rem;
   color: #384960;
+
   @screen lg {
     font-size: 1.2rem;
   }
 }
+
 i {
   color: #00356b;
   font-size: 3rem;
@@ -74,12 +79,15 @@ i {
 .closed {
   color: #8a2054;
 }
+
 a.blue {
   color: #1e90ff;
 }
+
 .caps {
   text-transform: uppercase;
 }
+
 .gradient-text {
   background: linear-gradient(90deg, #1e90ff, #0076ce, #1560bd);
   background-clip: text;
@@ -88,10 +96,22 @@ a.blue {
   color: transparent;
 }
 
+.gradient-section {
+  background: linear-gradient(0deg, #C0DAF1, #D3E5F5, #EEF4FC);
+  &.reverse{
+    background: linear-gradient(0deg, #EEF4FC, #D3E5F5, #C0DAF1);
+  
+  }
+
+}
+
+
+
 .icon-menu {
   font-family: "Material Icons";
   content: "\e5d2";
 }
+
 .parent-link {
   font-size: 1.2rem;
   color: #00356b;
@@ -103,6 +123,7 @@ a.blue {
   color: #00356b;
   font-family: "Montserrat", sans-serif;
 }
+
 .underline-link {
   display: inline-block;
   position: relative;
@@ -122,12 +143,14 @@ a.blue {
     background: linear-gradient(90deg, #1edbff, #1e90ff);
     transition: width 0.5s ease;
   }
+
   &:hover {
     &:after {
       width: 100%;
       height: 2px;
     }
   }
+
   &.dark-underline {
     &:after {
       background: linear-gradient(90deg, #1e90ff, #0076ce, #1560bd);
@@ -218,6 +241,7 @@ nav.main {
   z-index: 100;
   background-color: #374960;
   color: #f6faff;
+
   p,
   a {
     color: #f6faff;
@@ -236,10 +260,11 @@ nav.main {
     }
   }
 }
+
 //NOTIFY BANNER
 .notify {
-  background-image:  $gradient-2;
-  background-size:100%;
+  background-image: $gradient-2;
+  background-size: 100%;
   position: relative;
   background-repeat: no-repeat;
 
@@ -247,6 +272,7 @@ nav.main {
   .notify-close {
     color: rgb(85, 84, 84);
     transition: color 0.3s ease;
+
     &:hover {
       color: white;
     }
@@ -300,12 +326,14 @@ section#hero {
     .bg4 {
       background-image: url("@/assets/images/gallery/views/sunset-long.jpeg");
     }
-	.bg5{
-		background-image: url("@/assets/images/homepage/jairo-gonzalez-vGP-QLJu9LM-unsplash.jpg");
-	}
-	.bg6{
-		background-image: url("@/assets/images/homepage/sunset-long.jpg");
-	}
+
+    .bg5 {
+      background-image: url("@/assets/images/homepage/jairo-gonzalez-vGP-QLJu9LM-unsplash.jpg");
+    }
+
+    .bg6 {
+      background-image: url("@/assets/images/homepage/sunset-long.jpg");
+    }
   }
 
   .outer-container {
@@ -336,6 +364,7 @@ section.hours {
   border-bottom-style: solid;
   border-bottom-color: white;
   border-image: linear-gradient(to right, #1e90ff, #0076ce, #1560bd) 1;
+
   @screen lg {
     padding-bottom: 100px;
     background-image: radial-gradient(rgba(#fff, 0.3), rgba(#fff, 0.4)),
@@ -360,35 +389,37 @@ section.hours {
     }
   }
 }
+
 //MENU {
 body {
   &.page-menu {
-    .outer-wrap {
-      .menu-subsection {
-        background-color: white;
-        border: 10px solid #384960;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        z-index: 5;
-        border-radius: 9px;
-        position: relative;
-        z-index: 200;
-        @screen lg {
-          border: 20px solid #384960;
-          padding: 20px;
-        }
+    section.menu-container {
+      border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-image: linear-gradient(to right, rgba(#0076ce, 0.2), rgba( #1e90ff, .5), rgba(#0076ce, 0.2)) 1;
+    }
+      .outer-wrap {
+        .menu-subsection {
 
-        img {
+          margin-left: auto;
+          margin-right: auto;
           padding: 10px;
-          border: 3px solid #9f6778;
+          z-index: 5;
           border-radius: 9px;
-          margin: auto;
-   
+          position: relative;
+          z-index: 200;
+    
 
-          @screen lg {
-            // Code inside the @screen directive
-          }
+          img {
+            background-color: white;
+            padding: 10px;
+            border: 3px solid #00356b;
+            border-radius: 9px;
+
+
+
+        
             padding: 20px;
           }
         }
@@ -397,12 +428,14 @@ body {
   }
 
 
+
 //ABOUT PAGE
 body {
-&.page-about {
+  &.page-about {
     .section-container {
       position: relative;
       z-index: 200;
+
       .outer-container {
         position: relative;
 
@@ -411,6 +444,7 @@ body {
           z-index: 20;
           position: relative;
         }
+
         @screen lg {
           &:before {
             content: "";
@@ -423,6 +457,7 @@ body {
             position: absolute;
             opacity: 0.1;
           }
+
           &:after {
             content: "";
             width: 100%;
@@ -434,11 +469,13 @@ body {
             position: absolute;
             opacity: 0.15;
           }
+
           &.reverse {
             &:before {
               left: unset;
               right: 10px;
             }
+
             &:after {
               left: unset;
               right: 20px;
@@ -449,6 +486,17 @@ body {
     }
   }
 }
+//Gallery
+body.page-gallery{
+  section.gradient-section{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-image: linear-gradient(to right, rgba(#0076ce, 0.2), rgba( #1e90ff, .5), rgba(#0076ce, 0.2)) 1;
+
+  }
+}
+
 //component styles
 .accordion {
   &.enabled {
@@ -476,14 +524,17 @@ body {
 .fade-leave-to {
   opacity: 0;
 }
+
 .banner-open-close-enter-active,
 .banner-open-close-leave-active {
   transition: height 0.5s ease-in-out;
 }
+
 .banner-open-close-enter-from,
 .banner-open-close-leave-to {
   height: 0;
 }
+
 .banner-open-close-enter-to,
 .banner-open-close-leave-from {
   height: 100px;
@@ -493,11 +544,13 @@ body {
 .menu-open-close-leave-active {
   transition: all 0.3s ease-in-out;
 }
+
 .menu-open-close-enter-from,
 .menu-open-close-leave-to {
   height: 0;
   opacity: 0;
 }
+
 .menu-open-close-enter-to,
 .menu-open-close-leave-from {
   height: fit-content;
@@ -510,17 +563,21 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes bg-animation {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }

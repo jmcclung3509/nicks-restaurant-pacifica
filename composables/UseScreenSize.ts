@@ -2,6 +2,7 @@ export const useScreensize = ()=>{
 	let windowWidth=ref(0)
 	let isMobile = ref(false)
 	let size= ref("default")
+	let isLargeScreen = ref(false)
 
 	const handleResize =()=>{
 		windowWidth.value = window.innerWidth
@@ -9,6 +10,11 @@ export const useScreensize = ()=>{
 			isMobile.value = false
 		} else {
 			isMobile.value = true
+		}
+		if (windowWidth.value >= 1280){
+			isLargeScreen.value = true
+		}else{
+			isLargeScreen.value = false
 		}
 
 		switch (true){
@@ -32,5 +38,5 @@ export const useScreensize = ()=>{
 		window.addEventListener("resize", handleResize)
 		handleResize()
 	})
-	return{isMobile, size}
+	return{isMobile, size, isLargeScreen}
 }
