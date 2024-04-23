@@ -74,10 +74,10 @@ const onMobileMenuClick = (payload) => {
 	data.notifyOpen = false;
 	console.log("click", payload);
 };
-
+//set data.notifyOpen to false to disable
 const toggleNotifyOpen = () => {
 	setTimeout(() => {
-		data.notifyOpen = true;
+		data.notifyOpen = false;
 	}, 200);
 };
 onMounted(() => {

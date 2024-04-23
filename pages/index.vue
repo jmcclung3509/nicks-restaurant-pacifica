@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="animate">
     <div
-      class="hero-container flex justify-center items-center h-[95vh] w-[100vw]"
+      class="hero-container flex justify-center items-center h-[85vh] w-[100vw]"
     >
       <div class="bg1 bg" :class="{ active: data.activeIndex === 0 }"></div>
       <div class="bg2 bg" :class="{ active: data.activeIndex === 1 }"></div>
