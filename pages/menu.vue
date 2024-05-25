@@ -2,14 +2,15 @@
   <div class="outer-wrap w-full mx-auto">
     <section
       id="breakfast"
-      class="w-full mx-auto flex flex-col justify-content space-y-7 gradient-section pb-36 pt-20 menu-container"
-      :class="{ animate: isLargeScreen }"
-    >
-      <div class="inner container mx-auto space-y-7">
-        <h1 class="text-6xl text-center text-dark-blue pb-7">Menu</h1>
-        <h2 class="text-center lg:text-3xl lg:text-left">Breakfast & Lunch</h2>
+      class="w-full mx-auto flex flex-col justify-content space-y-7 gradient-section  pt-20 menu-container"
+  
+    >       
+     <h1 class="text-6xl text-center text-dark-blue pb-7">Menu</h1>
+    <div class="inner container mx-auto space-y-7"   >
+
+        <h2 class="text-center lg:text-2xl ">Breakfast & Lunch</h2>
         <div
-          class="menu-subsection flex-col justify-center space-y-14 lg:space-y-0 lg:flex-row flex lg:justify-between lg:gap-14 items-center lg:items-start"
+          class="menu-subsection flex-col justify-center space-y-14 flex  items-center "
         >
           <img
             class=""
@@ -27,13 +28,13 @@
 
     <section
       id="dinner"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section reverse py-36"
-      :class="{ animate: isLargeScreen }"
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section reverse pt-36"
+   
     >
-      <div class="inner container mx-auto">
-        <h2 class="text-center lg:text-3xl lg:text-left">Dinner</h2>
+    <div class="inner container mx-auto space-y-7"   :class="{ animate: isLargeScreen }">
+        <h2 class="text-center lg:text-2xl">Dinner</h2>
         <div
-          class="menu-subsection flex-col justify-center space-y-14 lg:space-y-0 lg:flex-row flex lg:justify-between lg:gap-14 items-center lg:items-start"
+          class="menu-subsection flex-col justify-center space-y-14  flex l items-center "
         >
           <img src="@/assets/images/menu-page/dinner-1.png" alt="Dinner menu" />
 
@@ -43,11 +44,11 @@
     </section>
     <section
       id="bar"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section  py-36"
-      :class="{ animate: isLargeScreen }"
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section  pt-36"
+   
     >
-      <div class="inner container mx-auto space-y-7">
-        <h2 class="text-center lg:text-3xl lg:text-left">Bar & Lounge</h2>
+      <div class="inner container mx-auto space-y-7"   :class="{ animate: isLargeScreen }">
+        <h2 class="text-center lg:text-2xl ">Bar & Lounge</h2>
         <div
           class="menu-subsection flex-col justify-center space-y-14 lg:space-y-0 lg:flex-row flex  lg:gap-14 items-center lg:items-start"
         >
@@ -66,10 +67,10 @@
 
     <section
       id="dessert"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section reverse  py-36"
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 gradient-section reverse  pt-36"
     >
-      <div class="inner container mx-auto flex justify-center space-y-7">
-        <h2 class="text-center lg:text-3xl lg:text-left">Desserts</h2>
+      <div class="inner container mx-auto flex  flex-col justify-center space-y-7">
+        <h2 class="text-center lg:text-2xl ">Desserts</h2>
         <div class="menu-subsection mx-auto flex-justify-center ">
           <img
             src="@/assets/images/menu-page/desserts.png"
@@ -81,10 +82,10 @@
 
     <section
       id="happy-hour"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14  gradient-section py-36"
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14  gradient-section pt-36"
     >
       <div class="inner container mx-auto space-y-7">
-        <h2 class="text-center lg:text-3xl lg:text-left">Happy Hour</h2>
+        <h2 class="text-center lg:text-2xl" >Happy Hour</h2>
         <div class="menu-subsection mx-auto flex justify-center">
           <img
             src="@/assets/images/menu-page/happy-hour.png"
@@ -96,10 +97,10 @@
 
     <section
       id="banquet"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14  gradient-section reverse py-36 "
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14  gradient-section reverse pt-36 "
     >
       <div class="inner container mx-auto space-y-7">
-        <h2 class="text-center lg:text-3xl lg:text-left">Banquet Menu</h2>
+        <h2 class="text-center lg:text-2xl ">Banquet Menu</h2>
     <div class="menu-subsection justify-center flex litems-center">
           <img
     
@@ -107,7 +108,7 @@
             alt="Banquet menu"
           />
           </div>
-          <div class="menu-subsection justify-center flex litems-center">
+          <div class="menu-subsection justify-center flex items-center">
    
           <img
    
@@ -120,10 +121,10 @@
 
     <section
       id="music"
-      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 pt-36 gradient-section pb-36 "
+      class="menu-container w-full mx-auto flex flex-col justify-content space-y-14 pt-36 pb-20 gradient-section  "
     >
       <div class="inner container mx-auto space-y-7">
-        <h2 class="text-center lg:text-3xl lg:text-left">Music Calander</h2>
+        <h2 class="text-center lg:text-2xl">Music Calander</h2>
         <div class="menu-subsection flex justify-center">
           <img
             src="@/assets/images/menu-page/calender.png"

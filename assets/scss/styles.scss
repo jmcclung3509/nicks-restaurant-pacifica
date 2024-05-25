@@ -173,7 +173,7 @@ header {
     position: absolute;
     background-color: whitesmoke;
     padding: 20px 40px 20px 45px;
-    transform: translateX(-50%) translateY(12px);
+    transform: translateX(-50%) translateY(1rem);
   }
 }
 
@@ -212,7 +212,7 @@ header {
     width: 100vw;
     height: 100vh;
     background: whitesmoke;
-    opacity: 0.95;
+    opacity: 1;
     justify-content: flex-start;
     z-index: 200;
     padding: 100px;
@@ -393,12 +393,7 @@ section.hours {
 //MENU {
 body {
   &.page-menu {
-    section.menu-container {
-      border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: white;
-  border-image: linear-gradient(to right, rgba(#0076ce, 0.2), rgba( #1e90ff, .5), rgba(#0076ce, 0.2)) 1;
-    }
+
       .outer-wrap {
         .menu-subsection {
 
